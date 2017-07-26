@@ -2,17 +2,13 @@
     "name": "react-montage-app",
     "version": "0.1.0",
     "dependencies": {
-        "collections": "5.0.6",
         "create-react-class": "^15.6.0",
         "document-register-element": "^0.5.0",
-        "digit":"3.0.0",
-        "frb": "4.0.1",
         "montage": "https://github.com/thibaultzanini/montage.git#41f5654b05bf98009e2bfe996f2333466bdeeac6",
         "react-palette": "https://github.com/thibaultzanini/react-palette.git#ad14122a59a9ff79c9ddafe41dbdcc6f02552b05",
         "react": "^15.6.0",
         "react-dom": "^15.6.0",
-        "reactive-elements": "0.6.7",
-        "weak-map": "1.0.5"
+        "reactive-elements": "0.6.7"
     },
     "devDependencies": {
         "montage-testing": "~0.4.0"
