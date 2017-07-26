@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="hello.css">
+    <script type="text/montage-serialization">
+    {
+        "owner": {
+            "properties": {
+                "element": {"#": "owner"}
+            }
+        },
+
+         "name": {
+            "value": {"#": "name"},
+            "properties": {
+                "dataset.name": {"<->": "@owner.name"}
+            }
+        }
+
+    }
+    </script>
+</head>
+<body>
+    <div data-montage-id="owner" class="Hello">
+        <react-hello data-montage-id="name"></react-hello>
+    </div>
+</body>
+</html>
