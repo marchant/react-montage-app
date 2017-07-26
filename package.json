@@ -8,7 +8,10 @@
         "react-palette-m": "thibaultzanini/react-palette-m.git#30a4a94751f0afb93afa639aa8ba4020a39abecf",
         "react": "^15.6.0",
         "react-dom": "^15.6.0",
-        "reactive-elements": "0.6.7"
+        "reactive-elements": "0.6.7",
+        "frb": "4.0.1",
+        "collections": "5.0.6",
+        "weak-map": "1.0.5"
     },
     "devDependencies": {
         "montage-testing": "~0.4.0"
